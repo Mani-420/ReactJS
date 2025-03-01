@@ -4,7 +4,7 @@ import logo from '../assets/images/logo.png';
 const Navbar = () => {
   const linkClass = ({ isActive }) =>
     isActive
-      ? 'text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'
+      ? 'bg-black text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'
       : 'text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2';
 
   return (
